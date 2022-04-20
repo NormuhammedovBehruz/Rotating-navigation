@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating navigation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1 class="content-heading">Amazing Article</h1>
+            <span class="content-author">Bekhruz Nurmuhammadov</span>
+            <p class="content-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia nostrum voluptate, odit nemo dolor
+                quisquam doloribus at nisi nulla! Soluta laudantium cum, similique facilis quo quos quas iste eligendi!
+                Ducimus suscipit nobis vero nesciunt possimus quibusdam aperiam sed veritatis, sequi, id velit
+                praesentium esse maiores voluptates cum. Hic quisquam repellendus ea est quae reiciendis commodi
+                voluptas iste quaerat ex aliquam autem ipsum fugiat rem, at magnam quis nobis mollitia iure voluptatem!
+                Sed, similique dolor? Neque hic sed dolorem rem accusamus mollitia, ipsum porro nesciunt dignissimos
+                voluptate suscipit molestiae. Hic labore excepturi quaerat aspernatur numquam fugiat quis perferendis
+                repellendus incidunt optio?
+            </p>
+
+            <h2 class="content-title">I love Rain</h2>
+
+            <img class="content-img" src="./images/raning-city.jpg" alt="Raning city">
+
+            <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, sunt veniam?
+                Reprehenderit, quasi facilis fugiat mollitia aperiam rem soluta? Fuga eos sint, enim voluptates esse
+                recusandae quam dolore nemo similique sed consequatur, perferendis quo repellat quisquam! Exercitationem
+                nesciunt numquam earum?</p>
+        </div>
+    </div>
+
+    <nav class="sitenav">
+        <ul class="sitenav-list">
+            <li class="sitenav-item">
+                <a class="sitenav-link" href="#">
+                    <i class="fas fa-home"></i>
+                    Home
+                </a>
+            <li class="sitenav-item">
+                <a class="sitenav-link" href="#">
+                    <i class="fas fa-user-alt"></i>
+                    About
+                </a>
+            <li class="sitenav-item">
+                <a class="sitenav-link" href="#">
+                    <i class="fas fa-envelope"></i>
+                    Connect
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+
+</html>
